@@ -10,7 +10,7 @@ sap.ui.define([
 	}).placeAt("content_1");
 
 },
-function (Text){
+function (Link){
 	"use strict";
 
 	new Link({
