@@ -7,7 +7,7 @@ function (Text, Link, XMLView){
     "use strict";
     
     new Text({
-		text: "Hello World"
+		text: "Hello World Test"
 	}).placeAt("content");
 	new Link({
         text: "Testlink",
