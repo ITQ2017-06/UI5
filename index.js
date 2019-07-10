@@ -8,10 +8,10 @@ function (Text,Link){
     
     new Text({
 		text: "Hello World"
-	}).placeAt("content_1");
+	}).placeAt("content");
 	new Link({
         text: "Testlink",
         href: "www.google.com"
-    }).placeAt("content_2");
+    }).placeAt("content");
 
 });
