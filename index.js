@@ -11,7 +11,7 @@ function (Text,Link){
 	}).placeAt("content");
 	new Link({
         text: "Testlink",
-        href: "https.//www.google.com/"
+        href: "https://www.google.com/"
     }).placeAt("content");
 
 });
