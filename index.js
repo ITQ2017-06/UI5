@@ -1,9 +1,9 @@
 sap.ui.define([
     "sap/m/Text",
-    "sap/m/Link"
-
+    "sap/m/Link",
+    "sap/ui/core/mvc/XMLView"
 ], 
-function (Text, Link){
+function (Text, Link, XMLView){
     "use strict";
     
     new Text({
@@ -13,5 +13,10 @@ function (Text, Link){
         text: "Testlink",
         href: "https://google.com/"
     }).placeAt("content");
+    XMLView.create({
+		viewName: "sap.ui.demo.walkthrough.view.App"
+	}).then(function (oView) {
+		oView.placeAt("content");
+	});
 
 });
