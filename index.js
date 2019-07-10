@@ -3,7 +3,7 @@ sap.ui.define([
     "sap/m/Link"
 
 ], 
-function (Text,Link){
+function (Text, Link){
     "use strict";
     
     new Text({
