@@ -7,16 +7,15 @@ sap.ui.define([
 
 	new Text({
 		text: "Hello World"
-	}).placeAt("content");
+	}).placeAt("content_1");
 
 },
-function (Link){
+function (Text){
 	"use strict";
 
-	var test = new Link({
-        sId: "testlink"
-    });
-    test.href="www.google.com"
-    test.placeAt("content");
+	new Link({
+        text: "Testlink",
+        href: "www.google.com"
+    }).placeAt("content_2");
 
 });
