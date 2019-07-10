@@ -10,11 +10,13 @@ sap.ui.define([
 	}).placeAt("content");
 
 },
-function (Link) {
+function (Link){
 	"use strict";
 
-	new Link({
-        sId: "www.google.com"
-	}).placeAt("content");
+	var test = new Link({
+        sId: "testlink"
+    });
+    test.href="www.google.com"
+    test.placeAt("content");
 
 });
