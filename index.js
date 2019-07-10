@@ -1,6 +1,6 @@
 sap.ui.define([
     "sap/m/Text",
-    "sap/m/link"
+    "sap/m/Link"
 
 ], function (Text) {
 	"use strict";
