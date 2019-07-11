@@ -2,7 +2,7 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core"
-   controllerName="hts.itq2017.walkthrough.controller.App">
+   controllerName="sap.ui.demo.walkthrough.controller.App">
    <VBox>
       <Text text="Hallo von der XML-Datei geht das?"/>
       <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
