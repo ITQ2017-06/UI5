@@ -7,8 +7,6 @@
       <Text text="Hallo von der XML-Datei geht das?"/>
       <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
       <Text text="Hallo Schule"/>
-      <Button
-      text="Say Hello"
-      press=".onShowHello"/>
+      <Button text="Say Hello" press=".onShowHello"/>
    </VBox>
 </mvc:View>
