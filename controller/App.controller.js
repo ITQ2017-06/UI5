@@ -1,11 +1,11 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
- ], function (Controller) {
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
+ ], function (Controller, MessageToast) {
     "use strict";
     return Controller.extend("hts.itq2017.walkthrough.controller.App", {
        onShowHello : function () {
-          // show a native JavaScript alert
-          alert("Werden Umlaute angezeigt äüö?");
+          MessageToast.show("Hello World");
        }
     });
  });
