@@ -2,4 +2,5 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Hallo von der XML-Datei geht das?"/>
+   <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
 </mvc:View>
