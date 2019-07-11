@@ -8,11 +8,13 @@ function (Text, Link, XMLView){
     
     new Text({
 		text: "Hello World Test"
-	}).placeAt("content");
+  }).placeAt("content");
+  
 	new Link({
         text: "Testlink",
         href: "https://google.com/"
     }).placeAt("content");
+
     XMLView.create({
 		viewName: "hts.itq2017.walkthrough.view.App"
 	}).then(function (oView) {
