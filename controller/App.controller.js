@@ -5,7 +5,7 @@ sap.ui.define([
     return Controller.extend("hts.itq2017.walkthrough.controller.App", {
        onShowHello : function () {
           // show a native JavaScript alert
-          alert("Hello World");
+          alert("Werden Umlaute angezeigt äüö?");
        }
     });
  });
