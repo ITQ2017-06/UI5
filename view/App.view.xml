@@ -2,4 +2,4 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Hallo von der XML-Datei"/>
-    </mvc:View>
+</mvc:View>
