@@ -9,6 +9,9 @@
       <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
       <Text text="Hallo Schule"/>
       <Button text="Drück mich" press=".onShowHello"/>
+       <Button
+      text="{i18n>showHelloButtonText}"
+      press=".onShowHello"/>
        <Input
       value="{/recipient/name}"
       description="Inputfeld {/recipient/name}"
