@@ -11,7 +11,7 @@
       <Button text="Drück mich" press=".onShowHello"/>
        <Input
       value="{/recipient/name}"
-      description="Hello {/recipient/name}"
+      description="Inputfeld {/recipient/name}"
       valueLiveUpdate="true"
       width="60%"/>
    </VBox>
