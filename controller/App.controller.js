@@ -1,7 +1,7 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageBox"
- ], function (Controller, MessageToast) {
+ ], function (Controller, MessageBox) {
     "use strict";
     return Controller.extend("hts.itq2017.walkthrough.controller.App", {
        onShowHello : function () {
