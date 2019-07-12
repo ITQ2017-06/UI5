@@ -1,4 +1,4 @@
-sap.ui.define([
+/*sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageBox"
  ], function (Controller, MessageBox) {
@@ -15,4 +15,14 @@ sap.ui.define([
 		);
        }
     });
- });
+ });*/
+ sap.ui.define(["sap/m/MessageBox"], function(MessageBox) {
+    MessageBox.show(
+        "This message should appear in the message box.", {
+            icon: MessageBox.Icon.INFORMATION,
+            title: "My message box title",
+            actions: [MessageBox.Action.YES, MessageBox.Action.NO],
+            onClose: function(oAction) { / * do something * / }
+        }
+    );
+});
