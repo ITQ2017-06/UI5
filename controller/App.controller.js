@@ -27,14 +27,7 @@ sap.ui.define([
          var sRecipient = this.getView().getModel().getProperty("/recipient/name");
          var sMsg = oBundle.getText("helloMsg", [sRecipient]);
          // show message
-          MessageBox.show(
-			"This message should appear in the message box.", {
-				icon: MessageBox.Icon.INFORMATION,
-				title: "My message box title",
-				actions: [MessageBox.Action.YES, MessageBox.Action.NO],
-				onClose: function(oAction) { / * do something * / }
-			}
-		);
+          MessageBox.show(sMsg);
        }
     });
  });
