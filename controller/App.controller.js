@@ -2,7 +2,7 @@ sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageBox",
     "sap/ui/model/json/JSONModel"
- ], function (Controller, MessageBox) {
+ ], function (Controller, MessageBox, JSONModel) {
     "use strict";
     return Controller.extend("hts.itq2017.walkthrough.controller.App", {
         onInit : function () {
