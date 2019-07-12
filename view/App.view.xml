@@ -9,5 +9,10 @@
       <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
       <Text text="Hallo Schule"/>
       <Button text="Drück mich" press=".onShowHello"/>
+       <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
    </VBox>
 </mvc:View>
