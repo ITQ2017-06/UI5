@@ -12,7 +12,6 @@
                <Panel
                   headerText="{i18n>helloPanelTitle}">
                   <content>
-                  <VBox>
                      <Text text="Hallo von der XML-Datei geht das?"/>
                      <Link text="zur Schule" href="http://bs-hassfurt.de/"/>
                      <Text text="Hallo Schule"/>
@@ -25,7 +24,6 @@
                      description="Inputfeld {/recipient/name}"
                      valueLiveUpdate="true"
                      width="60%"/>
-                  </VBox>
                   </content>
                </Panel>
             </content>
