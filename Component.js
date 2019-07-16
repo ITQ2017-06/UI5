@@ -4,7 +4,7 @@ sap.ui.define([
     "sap/ui/model/resource/ResourceModel"
  ], function (UIComponent, JSONModel, ResourceModel) {
     "use strict";
-    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
+    return UIComponent.extend("hts.itq2017.walkthrough.Component", {
        metadata : {
           rootView: {
              "viewName": "hts.itq2017.walkthrough.view.App",
