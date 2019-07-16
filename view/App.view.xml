@@ -3,8 +3,8 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core"
-   controllerName="hts.itq2017.walkthrough.controller.App">
-    displayBlock="true">
+   controllerName="hts.itq2017.walkthrough.controller.App"
+   displayBlock="true">
    <App>
       <pages>
          <Page title="{i18n>homePageTitle}">
