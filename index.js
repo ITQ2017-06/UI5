@@ -4,7 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	new ComponentContainer({
-		name: "hts.ifq2017.walkthrough",
+		name: "hts.itq2017.walkthrough",
 		settings : {
 			id : "walkthrough"
 		},

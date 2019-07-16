@@ -3,7 +3,7 @@ sap.ui.define([
    "sap/m/MessageToast"
 ], function (Controller, MessageToast) {
    "use strict";
-   return Controller.extend("hts.ifq2017.walkthrough.controller.App", {
+   return Controller.extend("hts.itq2017.walkthrough.controller.App", {
       onShowHello : function () {
          // read msg from i18n model
          var oBundle = this.getView().getModel("i18n").getResourceBundle();
