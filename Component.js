@@ -7,7 +7,7 @@ sap.ui.define([
     return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
        metadata : {
           rootView: {
-             "viewName": "sap.ui.demo.walkthrough.view.App",
+             "viewName": "hts.itq2017.walkthrough.view.App",
              "type": "XML",
              "async": true,
              "id": "app"
