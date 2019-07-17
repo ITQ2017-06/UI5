@@ -19,5 +19,5 @@
             htmlText="Hello {/recipient/name}"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
-   </Panel>
+   </Panel> 
 </mvc:View>
